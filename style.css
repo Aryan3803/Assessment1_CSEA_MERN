@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pexels-goumbik-590016.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#main-container{
+    margin-top: 40px;
+    border: 2px solid black;
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+label{
+    margin: 10px;
+    font-size: 18px;
+}
+.photo{
+    margin-left: 20px;
+}
+#upload{
+    margin-top: 10px;
+}
+.submit{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(22, 238, 40);
+    font-size: 16px;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.details{
+    width: 150px;
+    height: 18px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+.details::placeholder{
+    padding: 3px;
+    color: black;
+    font-size: 15px;
+}
+textarea {
+    width: 250px;
+    height: 80px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1); /* semi-transparent background */
+    border-bottom: 2px solid black;
+    resize: none; /* prevents resizing */
+    padding: 3px;
+    color: white;
+    font-size: 15px;
+    outline: none;
+}
+.textarea{
+    margin-right:180px;
+}
+.resume-content p {
+    font-size: 16px;
+    color: black;
+}
+
+/* Styling for the download button */
+#download-btn {
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.pdf-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Full width in the PDF */
+}
+
+.resume-content p {
+    font-size: 16px;
+    color: black;
+}
+
+/* Styling for the download button */
+#download-btn {
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}

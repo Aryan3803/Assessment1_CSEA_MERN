@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <title>Resume Builder</title>
+</head>
+<body>
+    <div id="main-container">
+        <h1>Resume Builder</h1>
+        <label>Name:
+            <input id="name" class="details" type="text" placeholder="Enter Name">
+        </label>
+        <label>Email:
+            <input id="email" class="details" type="email" placeholder="Enter email">
+        </label>
+        <label>Phone No.:
+            <input id="phone" class="details" type="tel" placeholder="Enter Phone No.">
+        </label>
+        <label>Linked In:
+            <input id="linkedin" class="details" type="text" placeholder="Enter LinkedIn ID">
+        </label>
+        <label>GitHub ID:
+            <input id="github" class="details" type="text" placeholder="Enter GitHub ID">
+        </label>
+        <label class="textarea">Experience:</label>
+        <textarea id="experience"></textarea>
+
+        <label class="textarea">Education:</label>
+        <textarea id="education"></textarea>
+
+        <label class="photo"><b>Upload Photo:</b>
+            <br>
+            <input id="upload" type="file" accept="image/*">
+        </label>
+    </div>
+    <button id="generate-btn" class="submit">Generate Button</button>
+    <script src="script.js"></script>
+</body>
+</html>
